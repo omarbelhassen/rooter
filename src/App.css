@@ -1,0 +1,28 @@
+html{background-color: #061026;}
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #191d3a;
+  padding: 10px;
+  max-width: 1000px;
+  margin: auto;
+}
+.addMovie:hover {
+  border: 1px solid #bf1650 !important;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.7s;
+}
+.addMovie{
+  background-color: #0e101c !important;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #4f6294 !important;
+  padding: auto 40px auto 40px;
+  font-size: 15px !important;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 30px;
+}
